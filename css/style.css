@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --color1:#ff4911;
+    --color2:#0c0c0c;
+    --color3:#ffffff;
+   
+}
+@font-face {
+    font-family:montserrat ;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+/* --------------------------
+nav
+---------------------------------*/
+
+.mybgcolor{
+    background-color:var(--color2)!important;
+}
+.nav-link{
+    padding: 1rem!important;
+    color: #ffffff!important;
+}
+.navbar .active,.navbar a:hover{
+    color: #ff4911!important;
+}
+.nav-item{
+    font-family:montserrat ;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.navbar-brand{
+    font-family:montserrat ;
+    font-weight: bold;
+    font-size: 1.7rem; 
+}
+.navbar-toggler,.navbar-toggler:hover,.navbar-toggler:focus {
+   
+    border: none;
+    box-shadow: none;
+}
+
+
+
+/*---------------------------
+ home
+ ---------------------------- */
+#but1{
+    color: white!important;
+    text-decoration: none!important;
+    
+}
+#but1:hover{
+    color:var(--color1)!important;
+}
+#but2{
+    color:var(--color1)!important;
+    border: 1px solid #ff4911!important;
+    
+}
+#but2:hover{
+    background-color:var(--color3)!important;
+}
+.feature{
+    background-color: #0c0c0c!important;
+}
+.feature .row{
+    color: white!important;
+
+}
+#staticBackdrop .modal-dialog{
+    color: #0c0c0c!important;
+    font-family: montserrat ;
+    font-size: 12px;
+    
+}
+#staticBackdropLabel{
+    font-size: 30px!important;
+    font-weight: bold;
+
+}
+.butmem{
+    background-color: var(--color1)!important;
+    border: none!important;
+    
+}
+.butmem:hover{
+    background-color: white!important;
+    color: #ff4911!important;
+
+}
+#abouth1{
+    font-size: 2.5rem !important;
+    font-family:montserrat ;
+    font-weight: bold;
+}
+#aboutp{
+    font-size: 1.2rem !important;
+    font-family:montserrat ;
+}
+/*------------------------------
+ about
+ ------------------------------------- */
+#about{
+    background-color: #f9f9f9 !important;
+}
+/* classes */
+#class p{
+    font-family: montserrat;
+    font-size: 1.4rem ;
+    color: rgb(74, 74, 74) !important;
+}
+#class h2{
+    font-family:montserrat ;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card-body h4{
+    font-family:montserrat ;
+    font-weight: bold;
+
+}
+/*-------------------------
+ schedules
+ --------------------------  */
+.schedule{
+    background-color: #0c0c0c !important;
+}
+.schedule .schedulecont h6{
+    font-family:montserrat ;
+    font-size: 1.4rem !important;
+    color: grey !important;
+
+}
+.schedule .schedulecont h2{
+    font-family:montserrat ;
+    font-size: 1.8rem !important;
+    font-weight: bold;
+
+}
+.schedule-table strong,.schedule-table span {
+  display: block;
+  text-align: center;
+}
+.schedule-table strong {
+    color:white !important ;
+}
+
+  .schedule-table span {
+    color:gray !important;
+}
+.table .thead-light th,
+.schedule-table tr td:first-child {
+  background:var(--color1) !important ;
+  border: 1px solid #212122;
+  color: white !important;
+}
+.schedule-table tr td{
+    background: #0c0c0c !important;
+    
+}
+/*---------------------------------------
+     CONTACT              
+  -----------------------------------------*/
+
+  .webform input,
+  button#submit-button {
+    height: calc(2.25rem + 20px);
+  }
+
+  .form-control {
+    border-radius: var(--border-radius-small);
+    margin: 1.3rem 0;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: var(--dark-color);
+  }
+
+  button#submit-button {
+    background: var(--dark-color);
+    border-color: transparent;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  button#submit-button:hover {
+    background: var(--primary-color);
+  }
+
+  .contact h2 + p {
+    max-width: 90%;
+  }
+
+  .google-map {
+    border-top: 1px solid #efebeb;
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+  }
+
+  .google-map iframe {
+    width: 100%;
+  }
+
+
+  /*---------------------------------------
+     FOOTER              
+  -----------------------------------------*/
+
+
+  .site-footer {
+    border-top: 1px solid #efebeb;
+    padding: 3rem 0;
+  }
+
+  .site-footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(218, 72, 9);
+    font-weight: 400;
+  }
+
+  .site-footer p {
+    font-size: 17px;
+    color: white !important;
+  }
+  .site-footer p i{
+    padding: 5px !important;
+    
+  }
+
+
+
+
